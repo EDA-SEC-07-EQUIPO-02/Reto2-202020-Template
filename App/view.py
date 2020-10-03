@@ -108,11 +108,11 @@ while True:
         gen=controller.inputGenre(catalog, gen)
         for genero in gen:
              Movies= controller.getMoviesByGenre(cont, gen)
-        print Movies     
+        print(Movies)    
         print("la candidad de peliculas son ") + str(controller.genreSize(Movies))    
-    elif int(inputs[0]) == 6:
-        pais = input("País al que busca: ")
-        paisinfo = controller.
+    #elif int(inputs[0]) == 6:
+     #   pais = input("País al que busca: ")
+      #  paisinfo = controller.
 
     else:
         sys.exit(0)

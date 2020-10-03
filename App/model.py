@@ -52,10 +52,10 @@ def newCatalog():
                                     maptype="PROBING",
                                     loadfactor=0.4,
                                     comparefunction=compareMapMovieIds)
-    catalog["ProdCompanies"] = mp.newMap(100000,
-                                    maptype="PROBING",
-                                    loadfactor=0.4,
-                                    comparefunction=compareProdCompanies)
+    #catalog["ProdCompanies"] = mp.newMap(100000,
+     #                               maptype="PROBING",
+      #                              loadfactor=0.4,
+       #                             comparefunction=compareProdCompanies)
     catalog["AvgVote"] = mp.newMap(100000,
                                     maptype="PROBING",
                                     loadfactor=0.4,
@@ -315,8 +315,6 @@ def compareDates(date1, date2):
 
     if (date1) == (date2):
         return 0
-    elif (date1) > (date2):
-        return 1
     else:
         return -1
 

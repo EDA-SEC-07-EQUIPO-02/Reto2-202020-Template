@@ -94,7 +94,7 @@ def genreSize(catalog):
         
 def getMoviesByGenre(catalog, genre): 
 
-    movies = model.getMoviesByGenre(catalog, genre):
+    movies = model.getMoviesByGenre(catalog, genre)
     return movies       
 
 def inputGenre(catalog, genre):
